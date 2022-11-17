@@ -1,0 +1,26 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	cout << "Indeks Prestasi" << endl;
+	int NA;
+	cout << "Masukkan Nilai Akhir : ";
+	cin >> NA;
+	
+	if(NA >= 85){
+		cout << "A";
+	}
+	else if(NA < 85 && NA >= 70){
+		cout << "B";
+	}
+	else if(NA < 70 && NA >= 55){
+		cout << "C";
+	}
+	else if(NA < 55 && NA >= 45){
+		cout << "D";
+	}
+	else{
+		cout << "E";
+	}
+}
